@@ -8,8 +8,8 @@ branches:
   - dev
 
 install:
-  - npm install -g codecov istanbul
+  - npm install -g codecov
   - npm install
 script:
-  - istanbul cover _mocha test/mocha.js
+  - istanbul cover _mocha --reporter lcovonly -- -R test/mocha.js
   - codecov
