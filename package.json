@@ -18,7 +18,7 @@
   "scripts": {
     "test": "mocha test/mocha.js",
     "mocha": "mocha test/mocha.js",
-    "istanbul": "istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- test/mocha.js",
+    "istanbul": "istanbul cover _mocha --reporter lcovonly -- test/mocha.js",
     "jasmine": "istanbul cover jasmine",
     "benchmark": "node test/benchmark.js"
   },
