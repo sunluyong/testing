@@ -8,7 +8,7 @@ branches:
   - dev
 
 install:
-  - npm install -g codecov
+  - npm install -g codecov istanbul
 script:
-  - npm run istanbul
+  - istanbul cover ./node_modules/mocha/bin/_mocha test/mocha.js
   - codecov
