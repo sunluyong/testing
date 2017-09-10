@@ -3,6 +3,18 @@ should();
 
 const {add, mul, cover} = require('../src/api/index');
 
+describe('a suite of tests', function() {
+  this.timeout(500);
+
+  it('should take less than 500ms', function(done){
+    setTimeout(done, 300);
+  });
+
+  it('should take less than 500ms as well', function(done){
+    setTimeout(done, 590);
+  });
+});
+
 describe('Index', function() {
   describe('#add()', () => {
     it('should return 10 when add(2, 5, 3)', () => {

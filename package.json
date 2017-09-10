@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "benchmark": "^2.1.4",
     "chai": "^4.1.2",
     "istanbul": "^0.4.5",
     "jasmine": "^2.8.0",
@@ -18,7 +19,7 @@
     "mocha": "mocha test/mocha.js",
     "istanbul": "istanbul cover _mocha test/mocha.js",
     "jasmine": "istanbul cover jasmine",
-    "karma": "karma"
+    "benchmark": "node test/benchmark.js"
   },
   "repository": {
     "type": "git",
