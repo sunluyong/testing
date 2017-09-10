@@ -16,6 +16,7 @@
     "mocha": "^3.5.0"
   },
   "scripts": {
+    "test": "mocha test/mocha.js",
     "mocha": "mocha test/mocha.js",
     "istanbul": "istanbul cover _mocha test/mocha.js",
     "jasmine": "istanbul cover jasmine",
