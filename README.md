@@ -1,4 +1,4 @@
-<img src="https://travis-ci.org/Samaritan89/testing.svg?branch=dev"/>
+[![Build Status](https://travis-ci.org/Samaritan89/testing.svg?branch=dev)](https://travis-ci.org/Samaritan89/testing)
 
 # testing
 
