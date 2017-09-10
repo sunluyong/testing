@@ -1,0 +1,36 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "mocha": "^3.5.0"
+  },
+  "scripts": {
+    "mocha": "mocha test/mocha.js",
+    "istanbul": "istanbul cover _mocha test/mocha.js",
+    "jasmine": "istanbul cover jasmine",
+    "karma": "karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samaritan89/testing.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "samaritan89",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samaritan89/testing/issues"
+  },
+  "homepage": "https://github.com/Samaritan89/testing#readme"
+}
