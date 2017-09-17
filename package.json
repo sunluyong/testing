@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "test",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha test/mocha.js",
+    "cover": "istanbul cover _mocha test/mocha.js"
+  },
   "dependencies": {
     "react": "^15.6.1"
   },
@@ -29,9 +33,6 @@
     "regenerator-runtime": "^0.11.0",
     "selenium-webdriver": "^3.5.0",
     "sinon": "^3.2.1"
-  },
-  "scripts": {
-    "test": "mocha test/mocha.js"
   },
   "repository": {
     "type": "git",
