@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`react component test should not change 1`] = `
+<div
+  class="demo"
+>
+  <h1>
+    Demo
+  </h1>
+  <div
+    class="counter"
+  >
+    2
+  </div>
+  <input
+    value="2"
+  />
+  <button>
+    value ++
+  </button>
+</div>
+`;
