@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test/mocha.js",
-    "cover": "istanbul cover _mocha test/mocha.js"
+    "cover": "istanbul cover _mocha --reporter test/mocha.js"
   },
   "dependencies": {
     "react": "^15.6.1"
