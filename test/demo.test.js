@@ -1,5 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
+import sinon from 'sinon';
 import Demo from '../src/demo';
 
 describe('UI test #demo', () => {
@@ -33,10 +34,13 @@ describe('UI test #demo', () => {
 
   it('should change when props change', () => {
     const wrapper = mount(<Demo title="Demo" value={5} />);
+    sinon.spy(Demo.prototype, 'componentWillReceiveProps');
     const title = wrapper.find('h1');
     wrapper.setProps({
       title: 'Demo2'
     });
     expect(title.text()).toBe('Demo2');
+    const callCount = Demo.prototype.componentWillReceiveProps.callCount;
+    expect(callCount).toBe(1);
   });
 });
