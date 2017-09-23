@@ -17,7 +17,7 @@ class Demo extends PureComponent {
 
   add = () => {
     this.setState({
-      value: this.state.value ++
+      value: this.state.value + 1
     });
   }
 
