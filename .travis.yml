@@ -3,8 +3,8 @@ node_js:
   - "6"
   - "8"
 branches:
- only:
-  - "dev"
-  - "master"
+  only:
+    - "dev"
+    - "master"
 script:
   - "npm run cover"
