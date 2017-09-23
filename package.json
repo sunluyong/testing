@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha test/mocha.js",
     "cover": "istanbul cover _mocha --reporter test/mocha.js",
-    "jest": "jest test/demo.test.js --coverage"
+    "jest": "jest test/demo.test.js --coverage",
+    "webdriver": "mocha test/webdriver.js"
   },
   "dependencies": {
     "react": "^15.6.1"
